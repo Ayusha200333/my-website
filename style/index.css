@@ -504,3 +504,15 @@ span{
 .project-box:hover .project-layer{
     transform: translateY(0);
 }
+
+
+.project-layer h4{
+    font-size: 3rem;
+}
+
+.project-layer p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: .3rem 0 1rem;
+    color: black;
+}
