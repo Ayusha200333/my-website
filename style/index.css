@@ -221,3 +221,22 @@ span{
     text-align: center;
     font-size: 5rem;
 }
+
+
+.container{
+    width:100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 230px;
+    height: 200px;
+    transition: 0.5s;
+    margin: 30px;
+    border-radius:20px;
+    background-color: var(--snd-bg-color);
+}
