@@ -130,3 +130,7 @@ span{
         transform: translateY(0);
     }
 }
+
+.home-content p{
+    font-size: 1.6rem;
+}
