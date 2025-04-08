@@ -382,3 +382,13 @@ span{
     margin: .4rem 0 3rem;
     padding: 15px;
 }
+
+
+/*---service section---*/
+
+
+.services h1{
+    margin: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
