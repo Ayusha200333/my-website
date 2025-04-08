@@ -516,3 +516,18 @@ span{
     margin: .3rem 0 1rem;
     color: black;
 }
+
+.project-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.project-layer a i {
+    font-size: 5rem;
+    color: var(--snd-bg-color);
+}
