@@ -441,3 +441,17 @@ span{
     font-size: 2.2rem;
     margin:  2rem 0 3rem;
 }
+
+
+/*---project section---*/
+
+
+.projects {
+    background: var(--snd-bg-color);
+}
+
+.projects h1 {
+    margin: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
