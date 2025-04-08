@@ -455,3 +455,20 @@ span{
     text-align: center;
     font-size: 5rem;
 }
+
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap:2.5rem;
+}
+
+.project-container .project-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    border: .2rem solid var(--main-color);
+}
