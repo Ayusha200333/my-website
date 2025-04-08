@@ -240,3 +240,18 @@ span{
     border-radius:20px;
     background-color: var(--snd-bg-color);
 }
+
+
+.card .img{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    top:-50px;
+    left: 55px;
+}
+
+.card .img img{
+    width: 80%;
+    height: 70%;
+}
