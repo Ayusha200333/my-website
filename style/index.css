@@ -423,3 +423,10 @@ span{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
+
+
+.services-box img{
+    width:250px;
+    height: 230px;
+    border-radius: 20px;
+}
