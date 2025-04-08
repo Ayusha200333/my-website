@@ -280,3 +280,24 @@ span{
     font-weight: bold;
     font-size: 30px;
 }
+
+
+/*---assignment section---*/
+
+.assignment h1{
+    margin: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.assignment{
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.assignment {
+    background: var(--snd-bg-color);
+}
