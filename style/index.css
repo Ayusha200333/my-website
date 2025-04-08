@@ -585,3 +585,14 @@ span{
     margin-top: 2rem;
     cursor: pointer;
 }
+
+
+/*---footer section---*/
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--snd-bg-color);
+}
