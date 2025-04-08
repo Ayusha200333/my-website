@@ -301,3 +301,23 @@ span{
 .assignment {
     background: var(--snd-bg-color);
 }
+
+
+.container{
+    width: 90%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    grid-gap: 15px;
+    border-radius:20%;
+}
+
+.box{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+    border: .2rem solid var(--main-color);
+
+}
