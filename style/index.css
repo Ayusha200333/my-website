@@ -46,4 +46,16 @@ section {
 }
 
 
+.logo{
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    color: var(--main-color);
+}
+
 
