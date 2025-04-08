@@ -185,10 +185,30 @@ span{
     background: var(--snd-bg-color);
 }
 
-
 .about-img img{
     width:20vw;
     border-radius: 20%;
     box-shadow: 0 0 20px var(--main-color);
     cursor: pointer ;
+}
+
+
+.heading{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h1{
+    font-size: 5.6rem;
+    margin: 2rem;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+    margin: 2rem;
+}
+
+.about-content p{
+    font-size: 2rem;
+    margin: 2rem;
 }
