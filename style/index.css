@@ -184,3 +184,11 @@ span{
     gap: 2rem;
     background: var(--snd-bg-color);
 }
+
+
+.about-img img{
+    width:20vw;
+    border-radius: 20%;
+    box-shadow: 0 0 20px var(--main-color);
+    cursor: pointer ;
+}
