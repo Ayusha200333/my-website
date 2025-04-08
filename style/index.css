@@ -531,3 +531,16 @@ span{
     font-size: 5rem;
     color: var(--snd-bg-color);
 }
+
+
+/*---contact section---*/
+
+.contact{
+    background-color: var(--bg-color);
+}
+
+.contact h1{
+    margin: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
