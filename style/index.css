@@ -255,3 +255,28 @@ span{
     width: 80%;
     height: 70%;
 }
+
+.card .content{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    transform: translateY(-150px);
+    opacity: 0;
+}
+
+
+.card:hover{
+    height: 200px;
+}
+
+.card:hover .content{
+    opacity: 1;
+    transform: translateY(-60px);
+    transition: 0.5s;
+}
+
+.card h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
