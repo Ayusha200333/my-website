@@ -90,3 +90,11 @@
     font-weight:bold;
     text-align: center;
 }
+
+.timeline-content img{
+    display: block;
+    margin: 0 auto;
+    max-width: 70px;
+    height: auto;
+    border-radius: 100%;
+}
