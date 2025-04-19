@@ -73,10 +73,10 @@ section {
 }
 
 .navbar.active {
-    position: fixed; /* okay */
+    position: fixed;
     height: 100%;
     width: 100%;
-    overflow: hidden; /* 👈 This can block scrolling */
+    overflow: hidden;
 }
 
 #menu-icon{
@@ -128,7 +128,7 @@ span{
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -146,9 +146,6 @@ span{
     }
 }
 
-.home-content p{
-    font-size: 1.6rem;
-}
 
 .social-media a{
     display: inline-flex;
@@ -526,7 +523,7 @@ span{
 }
 
 .project-layer p{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: .3rem 0 1rem;
     color: black;
@@ -703,10 +700,12 @@ span{
         display: block;
         padding: 17px;
         font-size: 22px;
+        margin: 3rem 0;
     }
 
     .navbar .active{
         right: 0;
+        display: block;
     }
 
     .home{
@@ -763,7 +762,7 @@ span{
     }
 
     .about-img img{
-        width: 100vw;
+        width: 80vw;
         margin-top: 4rem;
     }
 }
