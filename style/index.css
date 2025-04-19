@@ -69,6 +69,7 @@ section {
 .navbar a:hover,
 .navbar a.active{
     color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
 }
 
 .navbar.active {
@@ -122,8 +123,15 @@ span{
 
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
-    0 0 35px var(--main-color),
-    0 0 45px var(--main-color);
+                0 0 35px var(--main-color),
+                0 0 45px var(--main-color);
+}
+
+.home-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
 }
 
 @keyframes floatImage {
