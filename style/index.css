@@ -71,6 +71,13 @@ section {
     color: var(--main-color);
 }
 
+.navbar.active {
+    position: fixed; /* okay */
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* 👈 This can block scrolling */
+}
+
 #menu-icon{
     font-size: 3.6rem;
     color: var(--text-color);
