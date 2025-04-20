@@ -6,19 +6,20 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active')
 }
 
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
-        let offset = sec.offsetTop -150;
+        let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
-        if(top >= offset && top < offset + height) {
-            navLinks.forEach.apply(links =>{
-                links.classList.remove('active');
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach(link => {
+                link.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         }
@@ -33,23 +34,23 @@ window.onscroll = () => {
 
 ScrollReveal({
     distance: '80px',
-    duration:2000,
+    duration: 2000,
     delay: 200,
 });
 
-ScrollReveal().reveal('.home-content,heading,.skills h1,.assignment h1,.services h1,.projects h1',{origin: 'top'});
-ScrollReveal().reveal('.home-img, .portfolio-box, .contact form,.container,.project-container' ,{origin: 'button'});
+ScrollReveal().reveal('.home-content,heading,.skills h1,.assignment h1,.services h1,.projects h1', {origin: 'top'});
+ScrollReveal().reveal('.home-img, .portfolio-box, .contact form,.container,.project-container', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img,.services-container', {origin: 'left'});
-ScrollReveal().reveal('.home-content p, .about-content',{origin:'right'});
-ScrollReveal().reveal('.footer',{origin:'bottom'});
+ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
+ScrollReveal().reveal('.footer', {origin: 'bottom'});
 
 
-const  typed = new Typed('.multiple-text',{
-    strings:['Frontend Developer' , 'Web Designer'],
-    typeSpeed:70,
-    backSpeed:70,
-    backDelay:1000,
-    loop:true,
+const typed = new Typed('.multiple-text', {
+    strings: ['Frontend Developer', 'Web Designer'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
 });
 
 
