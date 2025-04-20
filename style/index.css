@@ -64,7 +64,7 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
-    transition: 0.3s ease;
+    /*transition: 0.3s ease;*/
 }
 .navbar a:hover,
 .navbar a.active{
@@ -72,12 +72,12 @@ section {
     border-bottom: 3px solid var(--main-color);
 }
 
-.navbar.active {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
+/*.navbar.active {*/
+/*    position: fixed;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*}*/
 
 #menu-icon{
     font-size: 3.6rem;
@@ -127,12 +127,6 @@ span{
                 0 0 45px var(--main-color);
 }
 
-.home-content p{
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.8;
-    max-width: 1000px;
-}
 
 @keyframes floatImage {
     0%{
@@ -146,6 +140,12 @@ span{
     }
 }
 
+.home-content p{
+    font-size: 1.8rem;
+    /*font-weight: 500;*/
+    /*line-height: 1.8;*/
+    /*max-width: 1000px;*/
+}
 
 .social-media a{
     display: inline-flex;
@@ -224,6 +224,11 @@ span{
     font-size: 2rem;
     margin: 2rem;
 }
+
+.about-content .btn{
+    margin-left: 20px;
+}
+
 
 /*---skill section---*/
 
@@ -724,7 +729,7 @@ span{
         order: 2;
     }
     .home-img img{
-        width: 70vw;
+        width: 400px;
         margin-top: 4rem;
     }
 
@@ -733,7 +738,7 @@ span{
     }
 
     .about-img img{
-        width: 90vw;
+        width: 350px;
         margin-top: 4rem;
     }
 
@@ -757,12 +762,12 @@ span{
     }
 
     .home-img img{
-        width: 80vw;
+        width: 400px;
         margin-top: 8rem;
     }
 
     .about-img img{
-        width: 80vw;
+        width: 350px;
         margin-top: 4rem;
     }
 }
