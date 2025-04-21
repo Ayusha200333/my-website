@@ -34,7 +34,7 @@ window.onscroll = () => {
 
 ScrollReveal({
     distance: '80px',
-    duration: 2000,
+    duration: 1900,
     delay: 200,
 });
 
@@ -46,12 +46,13 @@ ScrollReveal().reveal('.footer', {origin: 'bottom'});
 
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Designer'],
+    strings: ['Frontend Developer', 'Web Developer' ,'UI/UX Engineer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
     loop: true,
 });
+
 
 
 
