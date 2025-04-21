@@ -383,13 +383,13 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
-    height: 4rem;
+    width: 9rem;
+    height: 3rem;
     background: var(--text-color);
     border-radius: 20px;
     font-size: 18px;
     font-weight: bold;
-    margin: .4rem 0 3rem;
+    margin: .8rem 0 3rem;
     padding: 15px;
 }
 
@@ -532,8 +532,8 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
-    height: 4rem;
+    width: 9rem;
+    height: 3rem;
     background: var(--text-color);
     border-radius: 20px;
     font-size: 18px;
