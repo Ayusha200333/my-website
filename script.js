@@ -38,8 +38,8 @@ ScrollReveal({
     delay: 200,
 });
 
-ScrollReveal().reveal('.home-content,heading,.skills h1,.assignment h1,.services h1,.projects h1', {origin: 'top'});
-ScrollReveal().reveal('.home-img, .portfolio-box, .contact form,.container,.project-container', {origin: 'bottom'});
+ScrollReveal().reveal('.home-content,heading,.skills h1,.assignment h1,.services h1,.projects h1,.education h1', {origin: 'top'});
+ScrollReveal().reveal('.home-img, .portfolio-box, .contact form,.container,.project-container, .timeline-items', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img,.services-container', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 ScrollReveal().reveal('.footer', {origin: 'bottom'});
