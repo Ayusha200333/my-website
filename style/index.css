@@ -10,7 +10,8 @@
 }
 
 :root{
-    --bg-color:#191f36;
+    /*--bg-color:#191f36;*/
+    --bg-color:#1E5128;
     --snd-bg-color:#262B40;
     --text-color:#fff;
     --main-color:#59B2F4;
@@ -46,14 +47,14 @@ section {
 }
 
 
-.logo{
-    font-size: 2rem;
-    color: var(--text-color);
-    font-weight: 700;
-    cursor: pointer;
-}
+/*img{*/
+/*    font-size: 2rem;*/
+/*    color: var(--text-color);*/
+/*    width: 50px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.logo:hover{
+img:hover{
     transform: scale(1.05);
     color: var(--main-color);
 }
@@ -659,7 +660,7 @@ span{
     }
 
     .about-content h1{
-        margin-left: 200px;
+        margin-left: 170px;
     }
 
     .about-content h3{
