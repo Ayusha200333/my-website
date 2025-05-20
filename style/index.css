@@ -54,7 +54,10 @@ section {
 /*    width: 50px;*/
 /*    cursor: pointer;*/
 /*}*/
-
+#logo:hover{
+    transform: scale(2.05);
+    color: var(--main-color);
+}
 img:hover{
     transform: scale(1.05);
     color: var(--main-color);
@@ -824,7 +827,4 @@ span{
     .contact form .input-box input{
         width: 100%;
     }
-
-
-
 }
